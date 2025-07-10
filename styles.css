@@ -82,31 +82,33 @@ body {
 h1, h2, h3, h4, h5 {
   font-weight: 600;
   line-height: 1.2;
+  font-family: 'Libre Bodoni', sans-serif; 
 }
 
 .h1-custom {
   font-family: 'Libre Bodoni', sans-serif; 
   font-size: 3rem;
   margin-bottom: 20px;
-  color: #8400FF !important; 
+  color: #8400FF; 
 }
 .h2-custom {
   font-family: 'Libre Bodoni', sans-serif; 
   font-size: 3rem;
   margin-bottom: 20px;
-  color: #8400FF !important; 
+  color: #8400FF ; 
 }
 .mt-3 {
   font-family: 'mada', sans-serif; 
   font-size: 1rem;
-  color: #8400FF !important;
+  color: #8400FF ;
 }
 
 p {
   font-family: 'mada', sans-serif; 
   font-size: 1rem;
-  color: #042940 !important;
+  color: var(--secondary-color);
 }
+
 .hero-section {
   background-color: #F8F7FF; 
 }
@@ -286,27 +288,114 @@ img.rounded-circle {
   color: var(--dark-color);
 }
 .step-number {
- font-family: 'Reenie Beanie ', Arial, Helvetica, sans-serif !important;
+ font-family: 'mada', Arial, Helvetica, sans-serif;
   color: #2400FF; 
   font-weight: 700;
   font-size: 1.4rem;
   margin-right: 8px;
 }
 /* fondo y titulos seccion nosotros*/
+/* Título de la card izquierda */
+.bg-violet-card .text-title {
+  font-family: 'Libre Bodoni', serif;
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Párrafo de la card izquierda */
+.bg-violet-card .text-body {
+  font-family: 'Mada', sans-serif, ;
+  color: white, ;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
 .bg-custom {
   background-color: #9381FF;
   padding: 60px 0; /* para que el espacio vertical quede cómodo */
   color: white; /* para que el texto contraste sobre fondo oscuro */
 }
 .h2-white {
-  color: white !important;
+  color: white ;
   
+}
+.text-white {
+    color: #FFFFFF; /* Blanco */
+}
+.section-spacing {
+    padding-top: 80px; /* Ajusta según el espaciado que quieras entre secciones */
+    padding-bottom: 80px;
+}
+
+.h2-custom {
+    font-family: 'Libre bodoni', sans-serif; /* Reemplaza 'TuFuentePrincipal' con el nombre de tu fuente */
+    font-size: 3em; /* Ajusta el tamaño de la fuente */
+    margin-bottom: 20px;
+}
+
+.h2-white {
+    color: #FFFFFF;
+}
+
+.subtitle-text {
+    font-family: 'mada', sans-serif; /* Reemplaza 'TuFuenteSecundaria' */
+    font-size: 1.2em; /* Ajusta el tamaño */
+    color: #E0E0E0; /* Un blanco suave, o #FFFFFF */
+}
+
+/* Estilo para el párrafo dentro de la sección morada */
+.bg-purple p {
+    font-family: 'mada', sans-serif; /* Reemplaza 'TuFuenteNormal' */
+    font-size: 1em;
+    line-height: 1.6;
+    color: #FFFFFF;
+}
+
+.bg-purple {
+    background-color: #5D37B4; /* O el código hexadecimal exacto de tu morado */
+}.bg-purple {
+    background-color: #5D37B4; /* O el código hexadecimal exacto de tu morado */
+    /* Puedes agregar padding si necesitas más espacio interno en la sección */
+    padding: 60px 0; /* Ejemplo de padding */
+}
+.text-white {
+    color: #FFFFFF;
 }
 .bg-custom {
   background-color: #9381FF;
   padding: 60px 0;
   color: white; /* texto general */
 }
+.bg-light-custom {
+  background-color: #F8F7FF;
+}
+
+.bg-violet-card {
+  background-color: #8400FF;
+  color: white;
+  border: none;
+}
+.bg-violet-card {
+  background-color: #8400FF;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+.text-title {
+  font-family: 'Libre Bodoni', serif;
+  color: white;
+  font-size: 1.5em;
+}
+
+.text-body {
+  font-family: 'Mada', sans-serif;
+  color: white;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
 
 :root {
   --text-color-main: white;
@@ -315,14 +404,14 @@ img.rounded-circle {
 
 /* Estilo general para el texto largo */
 .bg-custom p {
-  color: #ffffff !important;
+  color: #ffffff ;
   font-size: 1rem;
   font-family: 'Mada bold', sans-serif; 
 }
 
 /* Estilo para el subtítulo */
 .bg-custom .subtitle-text {
-  color: #ffffff !important;
+  color: #ffffff ;
   font-family: 'Mada regular', sans-serif; 
   font-size: 1.2rem;
 
@@ -364,7 +453,7 @@ img.rounded-circle {
 }
 /* color subtitulo galeria */
  .bg-aprende p {
-  color: #A259FF !important;
+  color: #A259FF;
 }
 
 
@@ -409,6 +498,7 @@ img.rounded-circle {
 .text-uppercase-custom {
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-family: 'Mada bold', sans-serif; 
 }
 
 .text-bold {
@@ -461,3 +551,41 @@ img.rounded-circle {
     column-count: 1;
   }
 }
+.small-img {
+  width: 60px;
+  height: auto;
+}
+.card h5 {
+  font-family: 'Mada', serif;
+  color: #8400FF;
+  font-weight: bold;
+}
+.card p {
+  font-family: 'Mada', sans-serif;
+  color: #555;
+}
+.object-fit-cover {
+  object-fit: cover;
+}
+.bg-purple {
+  background-color: #8400FF;
+  color: white;
+}
+
+.bg-purple h2,
+.bg-purple p,
+.bg-purple li,
+.bg-purple small {
+  color: white;
+}
+
+.bg-purple .card {
+  background-color: white;
+  color: black;
+}
+
+.bg-purple .card h5 {
+  color: #8400FF;
+}
+
+
